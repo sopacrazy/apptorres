@@ -1,5 +1,21 @@
 {
+  "short_name": "TorresApp",
   "name": "TorresApp",
-  "description": "Um aplicativo de controle financeiro para pequenas provedoras de internet, focado em gerenciar clientes, pagamentos, estoque de materiais e relatórios de inadimplência. Todos os dados são salvos localmente no seu dispositivo.",
-  "requestFramePermissions": []
+  "description": "Um aplicativo de controle financeiro para pequenas provedoras de internet.",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#1E40AF",
+  "background_color": "#F9FAFB"
 }
